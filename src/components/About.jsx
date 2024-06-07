@@ -118,7 +118,7 @@ const About = () => {
       <div className="bg-gray-900 text-white py-16 text-center">
         <h2 className="text-4xl font-bold mb-4">Connect With Us</h2>
         <p className="mb-8">
-          Najm Barea Group significantly contributes to employment for locals
+          [Company Name] Group significantly contributes to employment for locals
           and expatriates
         </p>
         <Link to="/contact">
