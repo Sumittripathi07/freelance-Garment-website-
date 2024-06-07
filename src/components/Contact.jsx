@@ -20,10 +20,10 @@ const Contact = () => {
                 alt="Logo"
                 className="mx-auto mb-4 w-40"
               />
-              <h2 className="text-2xl font-semibold">
+              <h2 className="text-3xl font-semibold">
                 Sign up to grab the latest trends
               </h2>
-              <p className="text-gray-600">
+              <p className="text-gray-600 text-xl">
                 Welcome to the personalised shopping experiences with ZYOD.
               </p>
             </div>
@@ -31,7 +31,7 @@ const Contact = () => {
               <div>
                 <label
                   htmlFor="brandName"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-xl font-medium text-gray-700"
                 >
                   Enter your Brand Name
                 </label>
@@ -45,7 +45,7 @@ const Contact = () => {
               <div>
                 <label
                   htmlFor="mobileNumber"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-xl font-medium text-gray-700"
                 >
                   Enter Mobile Number
                 </label>
@@ -64,14 +64,14 @@ const Contact = () => {
               <div>
                 <button
                   type="submit"
-                  className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-black hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                  className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-xl font-medium text-white bg-black hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
                   Continue
                 </button>
               </div>
             </form>
             <div className="text-center mt-6">
-              <p className="text-sm text-gray-600">
+              <p className="text-xl text-gray-600">
                 Already have an account?{" "}
                 <a
                   href="#"
