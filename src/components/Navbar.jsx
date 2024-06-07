@@ -29,7 +29,7 @@ const Navbar = () => {
               About
             </Link>
 
-            <div className="dropdown">
+            <div className="dropdown hover:">
               <button className="text-gray-900">Services</button>
               <div class="dropdown-content">
                 <a href="#">Link 1</a>
