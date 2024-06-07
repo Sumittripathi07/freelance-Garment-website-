@@ -1,6 +1,6 @@
-import Dropdown from "./Dropdown";
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Navbar.css"
 
 const Navbar = () => {
   return (
@@ -14,6 +14,7 @@ const Navbar = () => {
               alt="Company Logo"
             />
           </div>
+
           <nav className="flex space-x-12 mr-28 text-xl mt-2">
             <Link to="/" className="text-gray-700 hover:text-yellow-600">
               Home
@@ -22,7 +23,19 @@ const Navbar = () => {
               About
             </Link>
 
-            <Dropdown />
+            <div class="dropdown">
+              <button
+                class="dropbtn bg-gray-700 text-white py-2 px-4
+              rounded-lg"
+              >
+                Services
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
 
             <Link to="/blogs" className="text-gray-700 hover:text-yellow-600">
               Benefits
