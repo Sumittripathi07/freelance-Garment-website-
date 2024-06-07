@@ -99,7 +99,7 @@ const Homi = () => {
         <ImageSlider />
       </div>
 
-      {/* <section className="py-12">
+      <section className="py-12">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-semibold text-gray-700">Our Services</h2>
         </div>
@@ -128,7 +128,7 @@ const Homi = () => {
             ))}
           </div>
         </div>
-      </section> */}
+      </section>
 
       <div className="bg-gray-100 py-8">
         <h2 className="text-center text-2xl md:text-3xl font-semibold text-gray-800 mb-8">
