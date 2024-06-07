@@ -1,50 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const articles = [
-  {
-    title:
-      "Building a Strong Partnership with Security Companies: Communication and Collaboration",
-    image: "https://najmbarea.com/wp-content/uploads/2024/03/blog_2.jpg",
-    link: "#",
-  },
-  {
-    title:
-      "Outsourcing Security: Pros and Cons for Affordability in Affordable Security Guard Services",
-    image: "https://najmbarea.com/wp-content/uploads/2024/03/blog_1.jpg",
-    link: "#",
-  },
-  {
-    title:
-      "VIP Protection: Ensuring Safety through Private Security Guards in the UAE",
-    image:
-      "https://najmbarea.com/wp-content/uploads/2024/02/vip-protection.jpg",
-    link: "#",
-  },
-
-  {
-    title:
-      "VIP Protection: Ensuring Safety through Private Security Guards in the UAE",
-    image: "https://najmbarea.com/wp-content/uploads/2024/02/emergency.jpg",
-    link: "#",
-  },
-
-  {
-    title:
-      "VIP Protection: Ensuring Safety through Private Security Guards in the UAE",
-    image: "https://najmbarea.com/wp-content/uploads/2023/11/blog-2.jpeg",
-    link: "#",
-  },
-
-  {
-    title:
-      "VIP Protection: Ensuring Safety through Private Security Guards in the UAE",
-    image:
-      "https://najmbarea.com/wp-content/uploads/2023/11/portrait-male-security-guard-with-radio-station-camera-screens-new.jpeg",
-    link: "#",
-  },
-];
-
 const Blog = () => {
   return (
     <>
@@ -56,47 +12,144 @@ const Blog = () => {
         />
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <h1 className="text-white text-6xl font-bold hover:text-yellow-600 cursor-pointer">
-            Our Blogs
+            Benefits
           </h1>
         </div>
         <div className="w-full h-36 bg-white rounded-t-full mt-[-4rem]"></div>
       </div>
 
-      <div className="container mx-auto py-8 px-4">
-        <div className="grid gap-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-8/12 ml-60">
-          {articles.map((article, index) => (
-            <div key={index} className="bg-white shadow-md overflow-hidden">
-              <img
-                src={article.image}
-                alt={article.title}
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-4">
-                <h3 className="text-lg font-semibold mb-2">{article.title}</h3>
-                <a
-                  href={article.link}
-                  className="inline-block mt-4 bg-yellow-600 text-white py-2 px-4 hover:bg-yellow-700"
-                >
-                  READ MORE
-                </a>
-              </div>
-            </div>
-          ))}
+      <div className="container mx-auto px-4 py-8">
+        <div className="flex flex-row">
+          <div className="w-4/12 ml-56">
+            <h2 className="text-4xl font-bold text-gray-700 mb-2">
+              For Wholesalers and Retailers
+            </h2>
+            <h3 className="text-xl font-semibold text-black mb-4">
+              BEST Garment Company
+            </h3>
+            <p className="text-gray-700 mb-4 text-justify">
+              Our commitment to excellence ensures that you receive the highest
+              quality garments, crafted with precision and care. We offer an
+              extensive range of styles, fabrics, and designs to meet the
+              diverse needs of your customers, helping you stay ahead of trends
+              and satisfy every demand. We leverage our end-to-end supply chain
+              management to offer competitive pricing without compromising on
+              quality. This allows you to maximize your profit margins and offer
+              your customers exceptional value. With our streamlined logistics
+              and dedicated customer service team, you can count on timely
+              deliveries. This reliability helps you maintain a consistent
+              inventory, reducing the risk of stockouts and keeping your shelves
+              filled with the latest products. We understand that every business
+              has unique needs. Whether it’s custom labels, specific packaging,
+              or exclusive designs, we offer flexible solutions tailored to your
+              requirements. This adaptability ensures that you can offer
+              personalized products that stand out in the market.
+            </p>
+          </div>
+          <div className="w-5/12 h-full mt-12 md:ml-8">
+            <img
+              src="https://images.pexels.com/photos/16390580/pexels-photo-16390580/free-photo-of-jeans-on-hangers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Team"
+              className="shadow-lg  rounded-lg"
+            />
+          </div>
         </div>
       </div>
 
+      <div className="container mx-auto px-4 py-8">
+        <div className="flex flex-row">
+          <div className="w-4/12 ml-56">
+            <h2 className="text-4xl font-bold text-gray-700 mb-2">
+              For Emerging Brands
+            </h2>
+            <h3 className="text-xl font-semibold text-black mb-4">
+              BEST Garment Company
+            </h3>
+            <p className="text-gray-700 mb-4 text-justify">
+              Starting a new brand can be daunting, but we&#39;re here to
+              support you every step of the way. Our experts guide you from
+              initial design concepts to final production, ensuring your vision
+              becomes a reality.
+            </p>
+            <p className="text-gray-700 mb-4 text-justify">
+              Emerging brands often struggle to access high-quality materials
+              and experienced manufacturers. We provide premium fabrics, modern
+              production facilities, and skilled craftsmanship, giving your
+              brand a competitive edge.
+            </p>
+
+            <p className="text-gray-700 mb-4 text-justify">
+              Today&#39;s consumers prioritize sustainable practices. Our
+              commitment to ethical manufacturing not only meets these
+              expectations but also positions your brand as a forward-thinking
+              leader. We offer low minimum order quantities, allowing you to
+              produce in smaller batches, effectively manage inventory, and test
+              new designs without a significant upfront investment.
+            </p>
+          </div>
+          <div className="w-5/12 h-full mt-10 md:ml-8">
+            <img
+              src="https://images.pexels.com/photos/16390571/pexels-photo-16390571/free-photo-of-close-up-of-jeans.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Team"
+              className="shadow-lg  rounded-lg"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className="container mx-auto px-4 py-8">
+        <div className="flex flex-row">
+          <div className="w-4/12 ml-56">
+            <h2 className="text-4xl font-bold text-gray-700 mb-2">
+              For society
+            </h2>
+            <h3 className="text-xl font-semibold text-black mb-4">
+              BEST Garment Company
+            </h3>
+            <p className="text-gray-700 mb-4 text-justify">
+              We prioritize eco-friendly practices throughout our supply chain,
+              sourcing organic materials and implementing energy-efficient
+              manufacturing processes to reduce our environmental footprint and
+              promote sustainability in the fashion industry.
+            </p>
+            <p className="text-gray-700 mb-4 text-justify">
+              Our business model fosters partnerships with local artisans, small
+              businesses, and manufacturers, providing fair wages and growth
+              opportunities. This preserves traditional craftsmanship, boosts
+              local economies, and supports community development.
+            </p>
+
+            <p className="text-gray-700 mb-4 text-justify">
+              Committed to ensuring safe and fair working conditions, we adhere
+              to strict labor standards, promoting worker well-being and
+              contributing to a more equitable society. Investing in research
+              and development drives innovation in sustainable fashion. We also
+              offer educational programs and resources, fostering continuous
+              improvement and awareness about sustainable and ethical practices
+              within our community and beyond.
+            </p>
+          </div>
+          <div className="w-5/12 h-full mt-16 md:ml-8">
+            <img
+              src="https://images.pexels.com/photos/2517866/pexels-photo-2517866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Team"
+              className="shadow-lg  rounded-lg"
+            />
+          </div>
+        </div>
+      </div>
       <div className="bg-gray-900 text-white py-16 text-center">
         <h2 className="text-4xl font-bold mb-4">Let's Connect</h2>
         <p className="mb-8">
           Najm Barea Group significantly contributes to employment for locals
           and expatriates
         </p>
-        <button className="bg-yellow-600 text-white py-2 px-6 hover:bg-yellow-700">
-          Get In Touch
-        </button>
+        <Link to="/contact">
+          <button className="bg-yellow-600 text-white py-2 px-6 hover:bg-yellow-700  rounded-lg">
+            Get In Touch
+          </button>
+        </Link>
       </div>
-
-      
     </>
   );
 };

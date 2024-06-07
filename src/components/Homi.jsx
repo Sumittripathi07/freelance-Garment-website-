@@ -10,14 +10,14 @@ const articles = [
   },
   {
     title:
-      "At comapny name, our custom manufacturing sevice is tailored to meet the unique needs of every client",
+      "Elevate your wardrobe with our premium garment business services. We offer custom tailoring, high-quality fabric.",
     image:
       "https://images.pexels.com/photos/7621039/pexels-photo-7621039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     link: "#",
   },
   {
     title:
-      "At comapny name, our custom manufacturing sevice is tailored to meet the unique needs of every client",
+      "Experience unparalleled craftsmanship and personalized fashion solutions tailored to your unique style.",
     image:
       "https://images.pexels.com/photos/20433641/pexels-photo-20433641/free-photo-of-close-up-of-clothes-hanging-on-clothing-racks.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     link: "#",
@@ -25,9 +25,9 @@ const articles = [
 ];
 
 const images = [
-  "https://images.pexels.com/photos/7679863/pexels-photo-7679863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  "https://images.pexels.com/photos/13758357/pexels-photo-13758357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-  "https://images.pexels.com/photos/8030173/pexels-photo-8030173.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "https://images.pexels.com/photos/6153893/pexels-photo-6153893.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "https://images.pexels.com/photos/5864245/pexels-photo-5864245.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 ];
 
 const ImageSlider = () => {
@@ -53,8 +53,12 @@ const ImageSlider = () => {
           alt={`Slide ${currentIndex}`}
           className="w-full h-full object-cover"
         />
-        <div class="text-overlay absolute top-6 p-4">
-          <h1 className="w-22">HELLOOO</h1>
+        <div class="absolute inset-0 flex flex-col justify-center items-center text-center text-white w-6/12 mx-auto">
+          <h1 className="text-justify text-5xl font-bold">
+            Our goal is to provide a one-stop solution for all your clothing
+            needs, whether you are a business, company, restaurant, wholesaler,
+            retailer, emerging brand, or even an individual.
+          </h1>
         </div>
       </div>
       <button
@@ -102,7 +106,7 @@ const Homi = () => {
         <div className="container mx-auto py-8 px-4">
           <div className="grid gap-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-8/12 ml-60">
             {articles.map((article, index) => (
-              <div key={index} className="bg-white shadow-md overflow-hidden">
+              <div key={index} className="bg-white shadow-md overflow-hidden  rounded-lg">
                 <img
                   src={article.image}
                   alt={article.title}
@@ -115,7 +119,7 @@ const Homi = () => {
                   <a
                     href={article.link}
                     className="inline-block mt-4 bg-gray-700 text-white py-2 px-4 hover:bg-yellow-700 
-                  ml-16"
+                  ml-16  rounded-lg"
                   >
                     READ MORE
                   </a>
@@ -134,27 +138,27 @@ const Homi = () => {
           <img
             src="https://cdn.prod.website-files.com/65c9a7c623ab16435fce4b7e/663b471786662e91526efd6e_cactus.webp"
             alt="APCC"
-            className="w-40 h-36 bg-gray-900"
+            className="w-40 h-36 bg-gray-900  rounded-lg"
           />
           <img
             src="https://cdn.prod.website-files.com/65c9a7c623ab16435fce4b7e/6630f81b684804d1a9afaa56_4Artboard%202%20copy%203.webp"
             alt="Marina Fitness"
-            className="w-40 h-36 bg-gray-900"
+            className="w-40 h-36 bg-gray-900  rounded-lg"
           />
           <img
             src="https://cdn.prod.website-files.com/65c9a7c623ab16435fce4b7e/6630f81bcd738895007368ac_3Artboard%202%20copy%202.webp"
             alt="Azizi"
-            className="w-40 h-36 bg-gray-900"
+            className="w-40 h-36 bg-gray-900  rounded-lg"
           />
           <img
             src="https://cdn.prod.website-files.com/65c9a7c623ab16435fce4b7e/6630f81e6d6f18662669860d_11Artboard%202%20copy%2010.webp"
             alt="Latinem Securities"
-            className="w-40 h-36 bg-gray-900"
+            className="w-40 h-36 bg-gray-900  rounded-lg"
           />
           <img
             src="https://cdn.prod.website-files.com/65c9a7c623ab16435fce4b7e/663b4716b92b5d7cbd475252_anima.webp"
             alt="Lootah"
-            className="w-40 h-36 bg-gray-900"
+            className="w-40 h-36 bg-gray-900  rounded-lg"
           />
         </div>
       </div>
@@ -192,44 +196,73 @@ const Homi = () => {
             <img
               src="https://images.pexels.com/photos/8483487/pexels-photo-8483487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="Team"
-              className="shadow-lg"
+              className="shadow-lg  rounded-lg"
             />
           </div>
         </div>
       </div>
 
-      <div className=" py-12">
-        <div className="text-center mb-8">
-          <h2 className="text-3xl font-semibold text-gray-700">
-            Our Testimonials
-          </h2>
+      <div className="bg-gray-900 text-white p-8 flex flex-col md:flex-row items-center justify-center">
+        <div className="md:w-1/2 p-4">
+          <button className="border border-white text-white py-2 px-4 rounded-full mb-4">
+            Our Mission
+          </button>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            REVOLUTIONING FASHION MANUFACTURING THROUGH TECHNOLOGY
+          </h1>
+          <p className="text-lg mb-6 text-justify">
+            Our mission at [Your Company Name] is twofold: to provide affordable
+            clothing solutions with the lowest MOQs to everyone, and to promote
+            sustainability in the fashion industry. We believe in supporting
+            small-scale manufacturers, vendors, and printers who are striving to
+            make a living, empowering them to thrive in a competitive market.
+          </p>
         </div>
-        <div className="flex justify-center items-center">
-          <div className="bg-white dark:bg-gray-700 shadow-lg p-8 mx-4 max-w-4xl flex justify-between items-center">
-            <div className="text-center">
-              <p className="text-gray-600 dark:text-gray-300 mb-4">
-                Thanks to Najm Barea's Business Set Up services, our company
-                smoothly established its presence in the UAE. Highly
-                recommended!
-              </p>
-              <p className="font-semibold text-gray-800 dark:text-gray-200">
-                Sarah
-              </p>
-              <p className="text-gray-500 dark:text-gray-400">Business Owner</p>
-            </div>
-            <div className="text-center">
-              <p className="text-gray-600 dark:text-gray-300 mb-4">
-                Najm Barea’s manpower solutions for the construction industry
-                were outstanding. Their skilled workforce helped us complete
-                projects on time.
-              </p>
-              <p className="font-semibold text-gray-800 dark:text-gray-200">
-                David
-              </p>
-              <p className="text-gray-500 dark:text-gray-400">
-                Senior Developer
-              </p>
-            </div>
+        <div className="md:w-1/2 p-4">
+          <img
+            src="https://images.pexels.com/photos/2249290/pexels-photo-2249290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Fashion Model"
+            className=" rounded-lg"
+          />
+        </div>
+      </div>
+
+      <div className="bg-white py-8 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center">
+            <button className="bg-gray-200 text-gray-700 py-2 px-4 rounded-full mb-4 text-2xl">
+              WHAT WE OFFER
+            </button>
+            <p className="text-2xl font-bold text-gray-900 mt-4 text-justify w-10/12 mx-auto">
+              At [Your Company Name], we offer end-to-end clothing manufacturing
+              services tailored to meet the diverse needs of our clients.
+              Whether you need one piece or a thousand, we&#39;ve got you
+              covered with the lowest Minimum Order Quantities (MOQs) in the
+              market. Our dedication to affordability is matched only by our
+              insistence on using the best fabrics, offering the finest printing
+              and designing options, ensuring that every garment meets the
+              highest standards of quality.
+            </p>
+            <button className="bg-black text-white py-2 px-6 rounded-full mt-8">
+              Know More &rarr;
+            </button>
+          </div>
+          <div className="grid grid-rows sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+            <img
+              src="https://images.pexels.com/photos/1409217/pexels-photo-1409217.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+              alt="Design to Delivery"
+              className="w-full h-80  rounded-lg"
+            />
+            <img
+              src="https://images.pexels.com/photos/2737702/pexels-photo-2737702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Inventory Risk"
+              className="w-full h-80  rounded-lg"
+            />
+            <img
+              src="https://images.pexels.com/photos/15055154/pexels-photo-15055154/free-photo-of-close-up-of-needles-thread-tape-measure-and-blade-lying-on-blue-background.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+              alt="Faster Delivery"
+              className="w-full h-80  rounded-lg"
+            />
           </div>
         </div>
       </div>

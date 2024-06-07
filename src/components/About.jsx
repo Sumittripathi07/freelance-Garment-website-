@@ -4,10 +4,6 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <>
-      
-
-      
-
       <div className="relative">
         <img
           src="https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -26,49 +22,42 @@ const About = () => {
         <div className="flex flex-row">
           <div className="w-4/12 ml-56">
             <h2 className="text-4xl font-bold text-gray-700 mb-2">
-              ABOUT NAJM BAREA
+              ABOUT [Company Name]
             </h2>
-            <h3 className="text-xl font-semibold text-gray-700 mb-4">
-              BEST SECURITY GUARD AGENCY
+            <h3 className="text-xl font-semibold text-black mb-4">
+              BEST Garment Company
             </h3>
-            <p className="text-gray-700 mb-4 text-justify text-gray-700">
-              Principally in Human Capital Outsourcing, NAJM BAREA Group has
-              played a meaningful role in providing gainful employment to the
-              local community and expatriates alike for 20 years. NAJM BAREA is
-              the best certified security guard company which provide best
-              security services to your construction properties, commercial and
-              residential properties.
+            <p className="text-gray-700 mb-4 text-justify">
+              Completely bootstrapped and fueled by ambition, [Your Company
+              Name] was born out of a desire to provide accessible, high-quality
+              clothing solutions to businesses, individuals, and emerging brands
+              alike. With a deep-rooted understanding of the industry and a
+              commitment to innovation, our founder embarked on a mission to
+              disrupt the status quo..
             </p>
-            <p className="text-gray-700 mb-4 text-justify text-gray-700">
-              At our best security guard agency, we strive for excellence in all
-              aspects of our services, offering tailored solutions that address
-              your unique requirements. We take pride in adapting and
-              capitalising on emerging prospects in the ever-evolving business
-              landscape.
+            <p className="text-gray-700 mb-4 text-justify">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+              repellat repudiandae placeat ratione reiciendis quaerat, eos porro
+              temporibus quibusdam consequuntur, voluptatibus nisi dolore hic.
+              In earum doloremque enim deserunt delectus, inventore dolores
+              optio cum obcaecati, voluptate corporis, provident illo maxime?
             </p>
-            <p className="text-gray-700">
-              We offer{" "}
-              <a href="#" className="text-blue-600 underline">
-                best security guard services
-              </a>
-              , specializing in{" "}
-              <a href="#" className="text-blue-600 underline">
-                private security guard services in the UAE
-              </a>
-              .
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Dignissimos.
             </p>
           </div>
           <div className="w-4/12 h-full mt-16 md:ml-8">
             <img
               src="https://images.pexels.com/photos/8483487/pexels-photo-8483487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="Team"
-              className="shadow-lg"
+              className="shadow-lg  rounded-lg"
             />
           </div>
         </div>
       </div>
 
-      <div className="bg-[#b7772d] text-white py-16 px-4">
+      <div className="bg-gray-900 text-white py-16 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-semibold mb-12">
             Why Choose Us?
@@ -82,8 +71,9 @@ const About = () => {
               />
               <h3 className="text-xl font-semibold mb-2">Best Practices</h3>
               <p className="text-center">
-                Reliable and trustworthy with the ability to meet deadlines and
-                commitments.
+                Your satisfaction is our top priority. We go above and beyond to
+                ensure that every interaction with us exceeds your
+                expectations..
               </p>
             </div>
             <div className="flex flex-col items-center">
@@ -94,8 +84,8 @@ const About = () => {
               />
               <h3 className="text-xl font-semibold mb-2">Best Prices</h3>
               <p className="text-center">
-                Best quality services at cost-effective prices to improve your
-                efficiency and maximise value.
+                Whether you need one piece or a thousand, we offer the lowest
+                MOQs to make our services accessible to everyone.
               </p>
             </div>
             <div className="flex flex-col items-center">
@@ -106,8 +96,9 @@ const About = () => {
               />
               <h3 className="text-xl font-semibold mb-2">Flexible</h3>
               <p className="text-center">
-                We adapt and provide tailored solutions to meet your unique
-                requirements.
+                With a wide range of fabrics and printing options to choose
+                from, you have the freedom to bring your vision to life in
+                exactly the way you imagined.
               </p>
             </div>
             <div className="flex flex-col items-center">
@@ -118,27 +109,28 @@ const About = () => {
               />
               <h3 className="text-xl font-semibold mb-2">Partnerships</h3>
               <p className="text-center">
-                We foster lasting connections through top-notch customer service
-                and swift resolution.
+                We take pride in our meticulous attention to detail and
+                commitment to quality craftsmanship, ensuring that every garment
+                we produce is of the highest standard.
               </p>
             </div>
           </div>
         </div>
       </div>
 
+      <hr />
       <div className="bg-gray-900 text-white py-16 text-center">
         <h2 className="text-4xl font-bold mb-4">Connect With Us</h2>
         <p className="mb-8">
           Najm Barea Group significantly contributes to employment for locals
           and expatriates
         </p>
-        <button className="bg-yellow-600 text-white py-2 px-6 hover:bg-yellow-700">
+        <Link to="/contact">
+        <button className="bg-yellow-600 text-white py-2 px-6 hover:bg-yellow-700  rounded-lg">
           Get In Touch
         </button>
+        </Link>
       </div>
-
-      
-      
     </>
   );
 };

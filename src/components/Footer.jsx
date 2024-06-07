@@ -22,11 +22,15 @@ const Footer = () => {
                   <span className="inline-block mr-2"><i class="fa-solid fa-location-dot"></i></span>
                   Al Fahad Plaza, Office No. 52, <br /> 6th Floor Al Rigga,{" "}
                   <br />
-                  Deira Dubai, UAE
+                  Deira Dubai, UAE 
                 </p>
                 <p className="mb-2">
                   <span className="inline-block mr-2"><i class="fa-solid fa-phone"></i></span>
-                  +971 58 5080056 <br /> +971 4 3261855
+                  +971 58 5080056 
+                </p>
+                <p className="mb-2">
+                  <span className="inline-block mr-2"><i class="fa-solid fa-phone"></i></span>
+                  +971 4 3261855 
                 </p>
                 <p>
                   <span className="inline-block mr-2"><i class="fa-solid fa-envelope"></i></span>
@@ -55,11 +59,15 @@ const Footer = () => {
                   <span className="inline-block mr-2"><i class="fa-solid fa-location-dot"></i></span>
                   Devidayal Compound, <br />
                   Reay Road East, <br />
-                  Mumbai 4000010
+                  Mumbai 4000010 
                 </p>
                 <p className="mb-2">
                   <span className="inline-block mr-2"><i class="fa-solid fa-phone"></i></span>
-                  +91 82914 08981 <br /> +91 7820932970
+                  +91 82914 08981 
+                </p>
+                <p className="mb-2">
+                  <span className="inline-block mr-2"><i class="fa-solid fa-phone"></i></span>
+                  +91 7820932970 
                 </p>
                 <p>
                   <span className="inline-block mr-2"><i class="fa-solid fa-envelope"></i></span>
