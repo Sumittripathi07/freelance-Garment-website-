@@ -10,7 +10,7 @@ const About = () => {
 
       <div className="relative">
         <img
-          src="https://images.pexels.com/photos/851213/pexels-photo-851213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          src="https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="About Us Background"
           className="w-full h-96 object-cover"
         />
@@ -25,13 +25,13 @@ const About = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-row">
           <div className="w-4/12 ml-56">
-            <h2 className="text-4xl font-bold text-yellow-600 mb-2">
+            <h2 className="text-4xl font-bold text-gray-700 mb-2">
               ABOUT NAJM BAREA
             </h2>
-            <h3 className="text-xl font-semibold text-black mb-4">
+            <h3 className="text-xl font-semibold text-gray-700 mb-4">
               BEST SECURITY GUARD AGENCY
             </h3>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-700 mb-4 text-justify text-gray-700">
               Principally in Human Capital Outsourcing, NAJM BAREA Group has
               played a meaningful role in providing gainful employment to the
               local community and expatriates alike for 20 years. NAJM BAREA is
@@ -39,7 +39,7 @@ const About = () => {
               security services to your construction properties, commercial and
               residential properties.
             </p>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-700 mb-4 text-justify text-gray-700">
               At our best security guard agency, we strive for excellence in all
               aspects of our services, offering tailored solutions that address
               your unique requirements. We take pride in adapting and
@@ -60,7 +60,7 @@ const About = () => {
           </div>
           <div className="w-4/12 h-full mt-16 md:ml-8">
             <img
-              src="https://najmbarea.com/wp-content/uploads/2023/07/abt-23.jpg"
+              src="https://images.pexels.com/photos/8483487/pexels-photo-8483487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="Team"
               className="shadow-lg"
             />

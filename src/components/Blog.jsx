@@ -50,7 +50,7 @@ const Blog = () => {
     <>
       <div className="relative">
         <img
-          src="https://images.pexels.com/photos/8134108/pexels-photo-8134108.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          src="https://images.pexels.com/photos/7679454/pexels-photo-7679454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="About Us Background"
           className="w-full h-96 object-cover"
         />

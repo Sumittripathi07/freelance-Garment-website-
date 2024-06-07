@@ -31,7 +31,7 @@ const Home = () => {
             Services Najm Barea Management Offers <br /> For Business Set Up &
             Visa Services
           </h3>
-          <p className="text-gray-700 max-w-2xl mx-auto text-lg ">
+          <p className="text-gray-700 max-w-2xl mx-auto text-lg text-justify">
             Najm Barea Management offers comprehensive Business setup and visa
             Services in the UAE. Our expertise lies in providing seamless
             solutions for company formation, business registration, license
@@ -64,7 +64,7 @@ const Home = () => {
           <h2 className="text-2xl font-bold mb-4">
             Company Formation and License Services
           </h2>
-          <p className="mb-4">
+          <p className="mb-4 text-justify">
             Najm Barea Management specializes in the forming and registering of
             Mainland and Free Zone companies. We assist you in navigating the
             legal and administrative procedures, ensuring compliance with all
@@ -95,7 +95,7 @@ const Home = () => {
           <h2 className="text-2xl font-bold mb-4">
             Company Formation and License Services
           </h2>
-          <p className="mb-4">
+          <p className="mb-4 text-justify">
             A valid tenancy contract is crucial for establishing your business
             presence. Najm Barea Management facilitates the registration of your
             tenancy contract with the Land Department (EJARI), ensuring
@@ -110,7 +110,7 @@ const Home = () => {
         <h2 className="text-3xl font-semibold text-yellow-600 mb-8">
           Why Choose Najm Barea Management
         </h2>
-        <p className="text-lg max-w-2xl mx-auto">
+        <p className="text-lg max-w-2xl mx-auto text-justify">
           Najm Barea Management provides extensive assistance across UAE’s
           business registration, company formation, and visa approval. Beyond
           essentials, we guide you through setup and visa procedures, offering
@@ -180,7 +180,7 @@ const Home = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
           Contact Us Today
         </h2>
-        <p className="font-normal mb-8 max-w-3xl mx-auto w-full">
+        <p className="font-normal mb-8 max-w-3xl mx-auto w-full text-justify">
           Choose Najm Barea Management for Business setup and Visa Services, and
           experience a streamlined and hassle-free journey towards establishing
           your business in the UAE. Our dedicated team is ready to assist you
