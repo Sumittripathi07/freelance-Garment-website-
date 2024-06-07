@@ -27,7 +27,7 @@ const About = () => {
             <h3 className="text-xl font-semibold text-black mb-4">
               BEST Garment Company
             </h3>
-            <p className="text-gray-700 mb-4 text-justify">
+            <p className="text-gray-700 mb-4 text-justify text-lg">
               Completely bootstrapped and fueled by ambition, [Your Company
               Name] was born out of a desire to provide accessible, high-quality
               clothing solutions to businesses, individuals, and emerging brands
@@ -35,19 +35,15 @@ const About = () => {
               commitment to innovation, our founder embarked on a mission to
               disrupt the status quo..
             </p>
-            <p className="text-gray-700 mb-4 text-justify">
+            <p className="text-gray-700 mb-4 text-justify text-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
               repellat repudiandae placeat ratione reiciendis quaerat, eos porro
               temporibus quibusdam consequuntur, voluptatibus nisi dolore hic.
               In earum doloremque enim deserunt delectus, inventore dolores
               optio cum obcaecati, voluptate corporis, provident illo maxime?
             </p>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Dignissimos.
-            </p>
           </div>
-          <div className="w-4/12 h-full mt-16 md:ml-8">
+          <div className="w-4/12 h-full mt-20 md:ml-8">
             <img
               src="https://images.pexels.com/photos/8483487/pexels-photo-8483487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="Team"
@@ -70,7 +66,7 @@ const About = () => {
                 className="mb-4 w-28 bg-white rounded-lg"
               />
               <h3 className="text-xl font-semibold mb-2">Best Practices</h3>
-              <p className="text-center">
+              <p className="text-center text-lg">
                 Your satisfaction is our top priority. We go above and beyond to
                 ensure that every interaction with us exceeds your
                 expectations..
@@ -83,7 +79,7 @@ const About = () => {
                 className="mb-4 w-28 bg-white rounded-lg"
               />
               <h3 className="text-xl font-semibold mb-2">Best Prices</h3>
-              <p className="text-center">
+              <p className="text-center text-lg">
                 Whether you need one piece or a thousand, we offer the lowest
                 MOQs to make our services accessible to everyone.
               </p>
@@ -95,7 +91,7 @@ const About = () => {
                 className="mb-4 w-28 bg-white rounded-lg"
               />
               <h3 className="text-xl font-semibold mb-2">Flexible</h3>
-              <p className="text-center">
+              <p className="text-center text-lg">
                 With a wide range of fabrics and printing options to choose
                 from, you have the freedom to bring your vision to life in
                 exactly the way you imagined.
@@ -108,7 +104,7 @@ const About = () => {
                 className="mb-4 w-28 bg-white rounded-lg"
               />
               <h3 className="text-xl font-semibold mb-2">Partnerships</h3>
-              <p className="text-center">
+              <p className="text-center text-lg">
                 We take pride in our meticulous attention to detail and
                 commitment to quality craftsmanship, ensuring that every garment
                 we produce is of the highest standard.

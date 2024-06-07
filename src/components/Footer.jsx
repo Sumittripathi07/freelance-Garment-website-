@@ -1,96 +1,88 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div>
-      <hr className="bg-yellow-600" />
-      <footer className="bg-gray-900 text-gray-200 py-20">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-center md:items-start">
-            <div className="ml-40">
-              <img
-                src="https://cdn.prod.website-files.com/65c9a7c623ab16435fce4b7e/65c9cff1b980349c04253d27_logo.svg"
-                className="mb-4 w-60"
-              />
-            </div>
-            <div className="flex flex-row mr-56">
-              <div className="mb-8 md:mb-0 md:mr-16 gap-10">
-                <h3 className="text-lg font-semibold text-white mb-2">
-                  Dubai Office
-                </h3>
-                <p className="mb-2">
-                  <span className="inline-block mr-2"><i class="fa-solid fa-location-dot"></i></span>
-                  Al Fahad Plaza, Office No. 52, <br /> 6th Floor Al Rigga,{" "}
-                  <br />
-                  Deira Dubai, UAE 
-                </p>
-                <p className="mb-2">
-                  <span className="inline-block mr-2"><i class="fa-solid fa-phone"></i></span>
-                  +971 58 5080056 
-                </p>
-                <p className="mb-2">
-                  <span className="inline-block mr-2"><i class="fa-solid fa-phone"></i></span>
-                  +971 4 3261855 
-                </p>
-                <p>
-                  <span className="inline-block mr-2"><i class="fa-solid fa-envelope"></i></span>
-                  info@najmbarea.com
-                </p>
-                <div className="flex mt-4 space-x-4">
-                  <a href="https://www.instagram.com/" aria-label="Instagram">
-                  <i class="fa-brands fa-instagram fa-2xl"></i>
-                  </a>
-                  <a href="https://www.facebook.com/profile.php?id=100006539163202" aria-label="Facebook">
-                  <i class="fa-brands fa-square-facebook fa-2xl"></i> 
-                  </a>
-                  <a href="https://www.linkedin.com/in/dayyan-shaikh/" aria-label="LinkedIn">
-                  <i class="fa-brands fa-linkedin fa-2xl"></i>
-                  </a>
-                  <a href="https://x.com/home?lang=en" aria-label="Twitter">
-                  <i class="fa-brands fa-x-twitter fa-2xl"></i>
-                  </a>
-                </div>
-              </div>
-              <div className="ml-20">
-                <h3 className="text-lg font-semibold text-white mb-2">
-                  India Office
-                </h3>
-                <p className="mb-2">
-                  <span className="inline-block mr-2"><i class="fa-solid fa-location-dot"></i></span>
-                  Devidayal Compound, <br />
-                  Reay Road East, <br />
-                  Mumbai 4000010 
-                </p>
-                <p className="mb-2">
-                  <span className="inline-block mr-2"><i class="fa-solid fa-phone"></i></span>
-                  +91 82914 08981 
-                </p>
-                <p className="mb-2">
-                  <span className="inline-block mr-2"><i class="fa-solid fa-phone"></i></span>
-                  +91 7820932970 
-                </p>
-                <p>
-                  <span className="inline-block mr-2"><i class="fa-solid fa-envelope"></i></span>
-                  info@brightstarconstructions.com
-                </p>
-                <p>
-                  <span className="inline-block mr-2"><i class="fa-solid fa-link"></i></span>
-                  www.brightstarconstructions.com
-                </p>
-              </div>
+      <hr />
+      <footer className="bg-gray-900 text-white py-8 px-4">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between">
+          <div className="flex flex-col mb-6 md:mb-0">
+            <h1 className="text-2xl font-bold mb-2">[COMPANY LOGO]</h1>
+            <p className="mb-6 text-xl">One-stop-solution for Fashion Manufacturing</p>
+            <p className="text-xl"> 
+              Reach us at{" "}
+              <a href="mailto:hello@zyod.com" className="text-blue-400">
+                hello@zyod.com
+              </a>
+            </p>
+            <div className="flex space-x-4 mt-4">
+              <a
+                href="https://www.facebook.com"
+                className="hover:text-gray-400"
+              >
+                <i className="fab fa-facebook-f fa-xl"></i>
+              </a>
+              <a
+                href="https://www.instagram.com"
+                className="hover:text-gray-400"
+              >
+                <i className="fab fa-instagram fa-xl"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com"
+                className="hover:text-gray-400"
+              >
+                <i className="fab fa-linkedin-in fa-xl"></i>
+              </a>
+              <a href="https://www.twitter.com" className="hover:text-gray-400">
+              <i class="fa-brands fa-twitter fa-xl"></i>
+              </a>
             </div>
           </div>
-          <div className="border-t border-gray-700 mt-8 pt-4">
-            <div className="flex justify-center items-center">
-              <p className="text-sm text-center">
-                &copy; Copyright 2023 Najm Barea Group. All Rights Reserved
-              </p>
+          <div className="flex flex-col mb-6 md:mb-0">
+            <h2 className="text-2xl font-semibold mb-2">Quick Links</h2>
+            <Link to="/about" className="text-xl hover:text-yellow-600">
+              About
+            </Link>
+            <Link to="/blogs" className="text-xl hover:text-yellow-600">
+              Benefits
+            </Link>
+            <Link to="/contact" className="text-xl hover:text-yellow-600">
+              Contact
+            </Link>
+          </div>
+          <div className="flex flex-col">
+            <div className="flex items-center mb-2">
+              <i className="fas fa-phone-alt mr-2"></i>
+              <span>+91-8448288830</span>
+            </div>
+            <div className="flex items-center mb-2">
+              <i className="fas fa-envelope mr-2"></i>
+              <a href="mailto:hello@zyod.com" className="text-blue-400">
+                dayyan.shaikh973@gmail.com
+              </a>
+            </div>
+            <div className="flex items-center mb-2">
+              <i className="fas fa-map-marker-alt mr-2"></i>
+              <span>
+                Krushna Nagr - 706, Tower C,Unitech Cyberpark, <br />Sector 39, Gurgaon,
+                122001
+              </span>
             </div>
           </div>
         </div>
+        <div className="mt-6 text-center">
+          <a href="#" className="hover:text-gray-400 text-lg">
+            Privacy Policy
+          </a>
+        </div>
+        <div className="mt-4 text-center text-gray-500 text-lg">
+          <p>Copyright © 2023-2024 Powered By [COMPANY NAME].</p>
+        </div>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

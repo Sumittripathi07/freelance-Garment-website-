@@ -15,19 +15,19 @@ const Navbar = () => {
             />
           </div>
           <nav className="flex space-x-12 mr-28 text-xl mt-2">
-            <Link to="/" className="text-gray-700 hover:text-yellow-600">
+            <Link to="/" className="text-gray-700 hover:text-yellow-600 text-xl">
               Home
             </Link>
-            <Link to="/about" className="text-gray-700 hover:text-yellow-600">
+            <Link to="/about" className="text-gray-700 hover:text-yellow-600 text-xl">
               About
             </Link>
 
             <Dropdown />
 
-            <Link to="/blogs" className="text-gray-700 hover:text-yellow-600">
+            <Link to="/blogs" className="text-gray-700 hover:text-yellow-600 text-xl">
               Benefits
             </Link>
-            <Link to="/contact" className="text-gray-700 hover:text-yellow-600">
+            <Link to="/contact" className="text-gray-700 hover:text-yellow-600 text-xl">
               Contact Us
             </Link>
           </nav>
