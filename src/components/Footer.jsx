@@ -13,7 +13,7 @@ const Footer = () => {
             <p className="text-xl"> 
               Reach us at{" "}
               <a href="mailto:hello@zyod.com" className="text-blue-400">
-                hello@zyod.com
+                Company Website Link
               </a>
             </p>
             <div className="flex space-x-4 mt-4">
@@ -55,17 +55,17 @@ const Footer = () => {
           <div className="flex flex-col">
             <div className="flex items-center mb-2">
               <i className="fas fa-phone-alt mr-2"></i>
-              <span>+91-8448288830</span>
+              <span className="text-lg">+91-8448288830</span>
             </div>
             <div className="flex items-center mb-2">
               <i className="fas fa-envelope mr-2"></i>
-              <a href="mailto:hello@zyod.com" className="text-blue-400">
+              <a href="mailto:hello@zyod.com" className="text-blue-400 text-lg">
                 dayyan.shaikh973@gmail.com
               </a>
             </div>
             <div className="flex items-center mb-2">
               <i className="fas fa-map-marker-alt mr-2"></i>
-              <span>
+              <span className="text-lg">
                 Krushna Nagr - 706, Tower C,Unitech Cyberpark, <br />Sector 39, Gurgaon,
                 122001
               </span>
