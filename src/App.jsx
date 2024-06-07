@@ -7,6 +7,7 @@ import './App.css'
 import About from './components/About'
 import Contact from './components/Contact'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
 
 
       </Routes>
+      <Footer/>
     </BrowserRouter>
   )
 }
