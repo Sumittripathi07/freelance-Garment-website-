@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css"
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
@@ -16,20 +16,21 @@ const Navbar = () => {
           </div>
 
           <nav className="flex space-x-12 mr-28 text-xl mt-2">
-            <Link to="/" className="text-gray-700 hover:text-yellow-600 text-xl">
+            <Link
+              to="/"
+              className="text-gray-700 hover:text-yellow-600 text-xl"
+            >
               Home
             </Link>
-            <Link to="/about" className="text-gray-700 hover:text-yellow-600 text-xl">
+            <Link
+              to="/about"
+              className="text-gray-700 hover:text-yellow-600 text-xl"
+            >
               About
             </Link>
 
-            <div class="dropdown">
-              <button
-                class="dropbtn bg-gray-700 text-white py-2 px-4
-              rounded-lg"
-              >
-                Services
-              </button>
+            <div className="dropdown">
+              <button className="text-gray-900">Services</button>
               <div class="dropdown-content">
                 <a href="#">Link 1</a>
                 <a href="#">Link 2</a>
@@ -37,10 +38,16 @@ const Navbar = () => {
               </div>
             </div>
 
-            <Link to="/blogs" className="text-gray-700 hover:text-yellow-600 text-xl">
+            <Link
+              to="/blogs"
+              className="text-gray-700 hover:text-yellow-600 text-xl"
+            >
               Benefits
             </Link>
-            <Link to="/contact" className="text-gray-700 hover:text-yellow-600 text-xl">
+            <Link
+              to="/contact"
+              className="text-gray-700 hover:text-yellow-600 text-xl"
+            >
               Contact Us
             </Link>
           </nav>
